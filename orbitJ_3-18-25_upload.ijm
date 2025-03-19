@@ -2891,7 +2891,7 @@ Array.print(x_input);
 Array.print(yfit);
 Array.print(x_y_output);
 print(x_y_output.length+" elements in x_y_output");
-//Note that for whatever reason ImageJ doesn't like array inputs so I had to generate this list of points for it not to hate me
+//Note that for whatever reason ImageJ doesn't like array inputs so I had to generate this list of points for it to work
 //This was generated using a custom tool I made called multi_line_label_maker, which can make these for an arbitrary number of points
 makeLine(x_input[0], yfit[0], x_input[1], yfit[1], x_input[2], yfit[2], x_input[3], yfit[3], x_input[4], yfit[4], x_input[5], yfit[5], x_input[6], 
 yfit[6], x_input[7], yfit[7], x_input[8], yfit[8], x_input[9], yfit[9], x_input[10], yfit[10], x_input[11], yfit[11], x_input[12], yfit[12], 
